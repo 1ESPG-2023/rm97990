@@ -33,25 +33,28 @@
 // })
 
 
-let num1=[1,2,3,4,5];
-let num2=[6,7,8,9,10];
-//Epalhar o Array com SPREAD [...]
-let num3=[...num1,...num2];
+// let num1=[1,2,3,4,5];
+// let num2=[6,7,8,9,10];
+// //Epalhar o Array com SPREAD [...]
+// let num3=[...num1,...num2];
 
-console.log(`Array-1 ${num1}`);
-console.log(`Array-2 ${num2}`);
-console.log(`Array-3 ${num3}`);
+// console.log(`Array-1 ${num1}`);
+// console.log(`Array-2 ${num2}`);
+// console.log(`Array-3 ${num3}`);
 
-num3.map((numero,key)=>{
-    console.log(`${(key+1)} - Itens do array - ${numero}`);
-})
+// num3.map((numero,key)=>{
+//     console.log(`${(key+1)} - Itens do array - ${numero}`);
+// })
 
-//Pegando o elemento pelo seu tipo:
-//Conversão deste elemento HTML para Array de forma indireta 
+// //Pegando o elemento pelo seu tipo:
+// //Conversão deste elemento HTML para Array de forma indireta 
 
-const liElementHtml = document.getElementsByTagName("li");
-const liElementArray = [...liElementHtml]
+// const liElementHtml = document.getElementsByTagName("li");
+// const liElementArray = [...liElementHtml];
 
-liElementArray.map((item,key)=>{
-    console.log(`${key+1}-${item.textContent}`)
-})
+// liElementArray.map((item,key)=>{
+//     if (item.textContent=="Item-39"){
+//         console.log(`${key+1}-${item.textContent = "Localizado"}`)
+//     }
+   
+// })
