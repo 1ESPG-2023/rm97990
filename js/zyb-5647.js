@@ -51,3 +51,7 @@ num3.map((numero,key)=>{
 
 const liElementHtml = document.getElementsByTagName("li");
 const liElementArray = [...liElementHtml]
+
+liElementArray.map((item,key)=>{
+    console.log(`${key+1}-${item.textContent}`)
+})
