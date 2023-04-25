@@ -60,20 +60,28 @@
 // })
 
 
-function soma(p1,p2,p3){
-    nr1=p1;
-    nr2=p2;
-    //Retorna somente o valor da função no console.log no index.hmtl 
-    return (parseInt(nr1)+parseInt(nr2) + parseInt(p3))
+// function soma(p1,p2,p3){
+//     nr1=p1;
+//     nr2=p2;
+//     //Retorna somente o valor da função no console.log no index.hmtl 
+//     return (parseInt(nr1)+parseInt(nr2) + parseInt(p3))
 
-    // console.log(`Resultado: ${nr1+nr2 + parseInt(parametro)}`);
-    // console.log(`Este é o parâmetro que foi passado : ${parametro}`)
-}
+//     // console.log(`Resultado: ${nr1+nr2 + parseInt(parametro)}`);
+//     // console.log(`Este é o parâmetro que foi passado : ${parametro}`)
+// }
 
-//ARRW FUNCTION
+// //ARRW FUNCTION
 
-const mudaCor=()=>{
+// const mudaCor=()=>{
 
-    //Função setTimeOut
-    setTimeout(soma,5000);
+//     //Função setTimeOut
+//     setTimeout(soma,5000);
+// }
+//  mudaCor()
+
+function mudaCor(){
+    let r="";
+    let g="";
+    let b="";
+    
 }
