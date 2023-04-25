@@ -60,20 +60,58 @@
 // })
 
 
-function soma(p1,p2,p3){
-    nr1=p1;
-    nr2=p2;
-    //Retorna somente o valor da função no console.log no index.hmtl 
-    return (parseInt(nr1)+parseInt(nr2) + parseInt(p3))
+// function soma(p1,p2,p3){
+//     nr1=p1;
+//     nr2=p2;
+//     //Retorna somente o valor da função no console.log no index.hmtl 
+//     return (parseInt(nr1)+parseInt(nr2) + parseInt(p3))
 
-    // console.log(`Resultado: ${nr1+nr2 + parseInt(parametro)}`);
-    // console.log(`Este é o parâmetro que foi passado : ${parametro}`)
+//     // console.log(`Resultado: ${nr1+nr2 + parseInt(parametro)}`);
+//     // console.log(`Este é o parâmetro que foi passado : ${parametro}`)
+// }
+
+// //ARRW FUNCTION
+
+// const mudaCor=()=>{
+
+//     //Função setTimeOut
+//     setTimeout(soma,5000);
+// }
+//  mudaCor()
+
+// let tmp=""
+
+// function mudaCor(){
+//     let r="";
+//     let g="";
+//     let b="";
+
+    //Math - função matemática que possui constantes e funções: random = gera números aleatóros entre 0 e 1
+    //ceil, floor e round = arredondam o número para cima, para baixo ou aleatoriamente 
+    //Determinando para a variavel r, um valor entre 0 e 255
+//     r = Math.round(Math.random()*255);
+//     g = Math.round(Math.random()*255);
+//     b = Math.round(Math.random()*255);
+
+//     //Utilizando os seletores CSS no JS
+//     const cabecalho=document.querySelector(".cabecalho");
+
+//     cabecalho.setAttribute("style",`background-color:rgb(${r},${g},${b})`)
+
+//     tmp = setTimeout(mudaCor, 1000)
+// }
+// mudaCor();
+
+//Função altera bannner
+
+
+function mudaImagem(){
+let num=Math.round(Math.random()*3)
+
+let caminho = `./img/banner-lateral-${num}.png`;
+
+const img1 = document.querySelector(".l-e > img")
+img1.src=caminho;
+
 }
-
-//ARRW FUNCTION
-
-const mudaCor=()=>{
-
-    //Função setTimeOut
-    setTimeout(soma,5000);
-}
+mudaImagem()
