@@ -7,7 +7,10 @@
     background-color: darkcyan;
     color: #fff;
 }
-
+.imgc{
+    width: 100vw;
+    height: 20vh;
+}
 .container{
     display: flex;
     justify-content: space-between;
@@ -24,12 +27,23 @@
 
 }
 .container .l-e{
-    
     flex-grow: 1;
     background-color: red;
+}
+.le{
+    display: flex;
+    flex-grow: 1;
+    width:100%;
+    height: 60vh;
 }
 
 .container .l-d{
     flex-grow: 1;
     background-color: crimson;
+}
+.ld{
+    display: flex;
+    flex-grow: 1;
+    width:100%;
+    height: 60vh;
 }

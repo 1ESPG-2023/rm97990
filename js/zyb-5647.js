@@ -79,25 +79,26 @@
 // }
 //  mudaCor()
 
-let tmp=""
+// let tmp=""
 
-function mudaCor(){
-    let r="";
-    let g="";
-    let b="";
+// function mudaCor(){
+//     let r="";
+//     let g="";
+//     let b="";
 
     //Math - função matemática que possui constantes e funções: random = gera números aleatóros entre 0 e 1
     //ceil, floor e round = arredondam o número para cima, para baixo ou aleatoriamente 
     //Determinando para a variavel r, um valor entre 0 e 255
-    r = Math.round(Math.random()*255);
-    g = Math.round(Math.random()*255);
-    b = Math.round(Math.random()*255);
+//     r = Math.round(Math.random()*255);
+//     g = Math.round(Math.random()*255);
+//     b = Math.round(Math.random()*255);
 
-    //Utilizando os seletores CSS no JS
-    const cabecalho=document.querySelector(".cabecalho");
+//     //Utilizando os seletores CSS no JS
+//     const cabecalho=document.querySelector(".cabecalho");
 
-    cabecalho.setAttribute("style",`background-color:rgb(${r},${g},${b})`)
+//     cabecalho.setAttribute("style",`background-color:rgb(${r},${g},${b})`)
 
-    tmp = setTimeout(mudaCor, 1000)
-}
-mudaCor();
+//     tmp = setTimeout(mudaCor, 1000)
+// }
+// mudaCor();
+
